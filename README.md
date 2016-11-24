@@ -1,7 +1,8 @@
 # InputComponents
+### v 0.1
 Web component using RIOT JS 
 
-##FOR Backend
+##For Backend
 
 [Inputs](https://github.com/ThunderID/ThunderComponents/blob/master/Documentation/Backend/Inputs.mdown)
 
