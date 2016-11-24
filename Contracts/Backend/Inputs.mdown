@@ -1,5 +1,5 @@
 ###Inputs
-Rev 1 (For revision history click [here](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/Backend/log-inputs.mdown) )
+Rev 1 (For revision history click [here](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/Backend/log-inputs.mdown))
 
 [I'm a reference-style link][Arbitrary case-insensitive reference text]
 
