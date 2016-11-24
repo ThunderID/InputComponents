@@ -1,27 +1,37 @@
 ####Inputs
+version 0.1
 
-1. input-string
+####1. input-string
 Description : input with string type 
+
 Data : string value
+
 Parameter : 
+
 	name : input name [string value],
 	value : input value [string value],
 	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
 
-2. input-datetime
+####2. input-datetime
 Description : input for datetime
+
 Data : date(YMD HIS) in specified format (GMT)
+
 Parameter : 
+
 	name : input name [string value],
 	value : input value [string value],
 	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10],
 	type : (date, time, datetime),
 	GMT : integer number(-7,0,7), assign with null will dissable GMT conversion
 
-3. input-dateTimeRange
+####3. input-dateTimeRange
 Description : input for date time using date time range
+
 Data : date(HIS) in specified format (GMT)
+
 Parameter : 
+
 	name : input name [string value],
 	value : input value [string value],
 	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10],
@@ -29,70 +39,93 @@ Parameter :
 	type : (date, time, datetime),
 	GMT : integer number(-7,0,7), assign with null will dissable GMT conversion
 
-4. input-email
+####4. input-email
 Description : input with email type 
+
 Data : data email
-Parameter : 
+
+Parameter :
+
 	name : input name [string value]
 	value : input value [string value]
 	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
 
-5. input-password
+####5. input-password
 Description : input with password type.
+
 Data : data password
+
 Parameter : 
+
 	name : input name [string value]
 	value : input value [string value]. This component wont show password to UI. You can leave it as null or it will be just fine too if you dont. We wont assign retrieved password to UI.
 	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
 
-6. input-number
+####6. input-number
 Description : input with number type 
+
 Data : data with integer type
-Parameter : 
+
+Parameter :
+
 	name : input name [string value]
 	value : input value [string value]
 	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
 
-7. input-text
+####7. input-text
 Description : input with textarea 
+
 Data : data on text format. Can be normal String text, or mark up (HTML)
+
 Parameter : 
+
 	name : input name [string value]
 	value : input value [string value]
 	validation : array of validation. ie : ['required' => true]	
 
-8. input-multiSelect
+####8. input-multiSelect
 Description : input with multiple value
+
 Data: array of selected data. Data format : ['id' => 'value'] | example : ['1' => 'red', '2' => 'Green']
+
 Parameter : 
+
 	name : input name [string value]
 	value : array of input value. Format : ['id' => 'value']
 	validation : array of validation. ie : ['required' => true]
 	list : array data for select
 
-9. input-singleSelect
+####9. input-singleSelect
 Description : input with only single account can be selected
+
 Data : ID of selected data. example: list = ['1'=> 'red', '2' => 'blue'] and the selected data is 'blue', just pass '2' (ID) and you're done.
+
 Parameter : 
+
 	name : input name [string value]
 	value : id of selected data
 	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
 	list : array data for select	
 	option : radio or dropdown
 
-10. input-tag
+####10. input-tag
 Description : input with tag format
+
 Data : Array of selected data ['selected-id' => 'selected value']
+
 Parameter : 
+
 	name : input name [string value]
 	value : array of selected data. Multiple or Single data must be formatted in array format.  	
 	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
 
-11. input-money
+####11. input-money
 Description : input with idr money format
-Format UI : _
-Format backend : _
+
+Data : integer data
+
 Parameter : 
+
 	name : input name [string value]
 	value : input value [string value]t [boolean value]	
 	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
@@ -100,4 +133,5 @@ Parameter :
 
 
 ####Example: 
+
 {input-string => ['name' => 'nama', 'value' => 'budi', 'validation' => ['required' => true, 'min' => 2, 'max' => 10]]}
