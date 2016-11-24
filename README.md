@@ -2,15 +2,15 @@
 Web component using RIOT JS 
 
 ##contracts For Backend
-####Inputs
+###Inputs
 
-1. input-string
-desc : input with string type 
-data : string value
-Param : 
-	name : input name [string value]
-	value : input value [string value]
-	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
+####input-string
+1. Description : input with string type 
+2. Data : string value
+3. Parameter : 
+-. name : input name [string value]
+-. value : input value [string value]
+-. validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
 
 2. input-datetime
 desc : input for datetime
