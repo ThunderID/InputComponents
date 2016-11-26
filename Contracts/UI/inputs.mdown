@@ -14,7 +14,9 @@ Parameter Backend :
 
 Output Format UI : none
 
-Validation UI : auto validate input on text typed and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your golbal css.
+Validation UI : 
+
+auto validate input on text typed and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your golbal css.
 
 Parameter UI : 
 
@@ -37,7 +39,9 @@ Parameter Backend :
 
 Output Format UI : Date time value formatted (calculated by GMT set by API)
 
-Validation UI : auto validate input on text typed and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your golbal css.
+Validation UI : 
+
+auto validate input on text typed and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your golbal css.
 
 Parameter UI : 
 
