@@ -145,3 +145,24 @@ Parameter UI :
 	placeholder : input placeholder text
 	class : input class styling (ie: if using bootstrap use 'form-control' class)
 	
+####7. input-text
+Description : input with textarea 
+
+Data backend : data on text format. Can be normal String text, or mark up (HTML)
+
+Parameter Backend : 
+
+	name : input name [string value]
+	value : input value [string value]
+	validation : array of validation. ie : ['required' => true]	
+
+Output Format UI : none
+
+Validation UI : auto validate input on text typed and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your golbal css.
+
+Parameter UI : 
+
+	label : input label
+	placeholder : input placeholder text
+	class : input class styling (ie: if using bootstrap use 'form-control' class or if you're using text editor like summer note you can add "summer-note" class here)
+	
