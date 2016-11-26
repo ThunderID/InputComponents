@@ -1,6 +1,6 @@
 # InputComponents
 ### v 0.1
-Web component using RIOT JS 
+Thunderlab Web component
 
 ##For Backend
 
