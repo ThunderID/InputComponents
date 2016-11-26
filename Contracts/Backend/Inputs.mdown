@@ -1,5 +1,5 @@
 ###Inputs
-Rev 1 (For revision history click [here](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/Backend/log-inputs.mdown))
+Rev 2 (For revision history click [here](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/Backend/log-inputs.mdown))
 
 ####1. input-string
 Description : input with string type 
@@ -129,7 +129,7 @@ Parameter :
 	name : input name [string value]
 	value : input value [string value]t [boolean value]	
 	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
-	currency : currency format
+	currency : currency format. format ['separator-type' : can be . or , or whatever. 'separator-count' : digit length will be separated, 'symbol' : symbol of currency ie: $, IDR, etc]
 
 
 ####Example: 
