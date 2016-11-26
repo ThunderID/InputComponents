@@ -20,6 +20,7 @@ auto validate input on text typed and focus event. if validation returning false
 
 Parameter UI : 
 
+	label : input label
 	placeholder : input placeholder text
 	class : input class styling (ie: if using bootstrap use 'form-control' class)
 	
@@ -45,6 +46,30 @@ auto validate input on text typed and focus event. if validation returning false
 
 Parameter UI : 
 
+	label : input label
 	placeholder : input placeholder text
 	class : input class styling (ie: if using bootstrap use 'form-control' class)
 	
+####3. input-dateTimeRange
+Description : input for date time using date time range
+
+Data Backend : date(HIS) in specified format (GMT)
+
+Parameter Backend : 
+
+	name : input name [string value],
+	value : input value [string value],
+	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10],
+	Range : ['start' => date time start, 'end' => date time end]	
+	type : (date, time, datetime),
+	GMT : integer number(-7,0,7), assign with null will dissable GMT conversion
+
+Output Format UI : Date time value formatted (calculated by GMT set by API)
+
+Validation UI : auto validate input on text typed and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your golbal css.
+
+Parameter UI : 
+
+	label : input label
+	placeholder : input placeholder text
+	class : input class styling (ie: if using bootstrap use 'form-control' class)
