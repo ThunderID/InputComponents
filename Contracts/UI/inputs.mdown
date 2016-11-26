@@ -166,3 +166,25 @@ Parameter UI :
 	placeholder : input placeholder text
 	class : input class styling (ie: if using bootstrap use 'form-control' class or if you're using text editor like summer note you can add "summer-note" class here)
 	
+####8. input-multiSelect
+Description : input with multiple value (checkbox)
+
+Data backend: array of selected data. Data format : ['id' => 'value'] | example : ['1' => 'red', '2' => 'Green']
+
+Parameter backend : 
+
+	name : input name [string value]
+	value : array of input value. Format : ['id' => 'value']
+	validation : array of validation. ie : ['required' => true]
+	list : array data for select
+
+Output Format UI : convert id to selected value
+
+Validation UI : auto validate input on click, select change, and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your golbal css.
+
+Parameter UI : 
+
+	label : input label
+	placeholder : input placeholder text
+	class : input class styling (ie: if using bootstrap use 'form-control' class)
+	
