@@ -1,5 +1,5 @@
 ###Inputs
-Revision 1 (For revision history click [here]())
+Revision 1 (For revision history click [here](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/UI/log-inputs.mdown))
 
 ####1. input-string
 Description : input with string type 
