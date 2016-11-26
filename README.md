@@ -8,4 +8,6 @@ Thunderlab Web component
 
 ##For UI
 
+[Inputs](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/UI/inputs.mdown)
+
 ##Changelog
