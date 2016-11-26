@@ -158,7 +158,9 @@ Parameter Backend :
 
 Output Format UI : none
 
-Validation UI : auto validate input on text typed and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your golbal css.
+Validation UI : 
+
+auto validate input on text typed and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your golbal css.
 
 Parameter UI : 
 
@@ -180,7 +182,9 @@ Parameter backend :
 
 Output Format UI : convert id to selected value
 
-Validation UI : auto validate input on click, select change, and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your golbal css.
+Validation UI : 
+
+auto validate input on click, select change, and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your golbal css.
 
 Parameter UI : 
 
@@ -203,7 +207,9 @@ Parameter backend:
 
 Output Format UI : convert id to selected data
 
-Validation UI : auto validate input on text typed and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your golbal css.
+Validation UI : 
+
+auto validate input on text typed and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your golbal css.
 
 Parameter UI : 
 
@@ -212,3 +218,50 @@ Parameter UI :
 	class : input class styling (ie: if using bootstrap use 'form-control' class)
 	type : you can choose dropdown styled or radiobutton styled. format : 'dropdown' for dropdown, 'radio' for radiobutton 
 
+####10. input-tag
+Description : input with tag format
+
+Data backend : Array of selected data ['selected-id' => 'selected value']
+
+Parameter backend : 
+
+	name : input name [string value]
+	value : array of selected data. Multiple or Single data must be formatted in array format.  	
+	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
+
+Output Format UI : convert id to selected value
+
+Validation UI : 
+
+auto validate input on text typed and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your golbal css.
+
+Parameter UI : 
+
+	label : input label
+	placeholder : input placeholder text
+	class : input class styling (ie: if using bootstrap use 'form-control' class)
+	
+####11. input-money
+Description : input with idr money format
+
+Data backend: integer data
+
+Parameter backend: 
+
+	name : input name [string value]
+	value : input value [string value]t [boolean value]	
+	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
+	currency : currency format. format ['separator-type' : can be . or , or whatever. 'separator-count' : digit length will be separated, 'symbol' : symbol of currency ie: $, IDR, etc]
+
+Output Format UI : format integer data matching the currency format
+
+Validation UI : 
+
+auto validate input on text typed and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your golbal css.
+
+Parameter UI : 
+
+	label : 
+	placeholder : input placeholder text
+	class : input class styling (ie: if using bootstrap use 'form-control' class)
+	symbol-location : two options 'prefix' -> in front of number, or 'postfix' -> after the number
