@@ -188,3 +188,27 @@ Parameter UI :
 	placeholder : input placeholder text
 	class : input class styling (ie: if using bootstrap use 'form-control' class)
 	
+####9. input-singleSelect
+Description : input with only single account can be selected
+
+Data backend : ID of selected data. example: list = ['1'=> 'red', '2' => 'blue'] and the selected data is 'blue', just pass '2' (ID) and you're done.
+
+Parameter backend: 
+
+	name : input name [string value]
+	value : id of selected data
+	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
+	list : array data for select	
+	option : radio or dropdown
+
+Output Format UI : convert id to selected data
+
+Validation UI : auto validate input on text typed and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your golbal css.
+
+Parameter UI : 
+
+	label : input label
+	placeholder : input placeholder text
+	class : input class styling (ie: if using bootstrap use 'form-control' class)
+	type : you can choose dropdown styled or radiobutton styled. format : 'dropdown' for dropdown, 'radio' for radiobutton 
+
