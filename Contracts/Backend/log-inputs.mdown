@@ -2,3 +2,8 @@
 ####24 November 2016
 ------
 1. Initial Contracts
+
+###REV 2
+####26 November 2016
+------
+1. Redefine input money currency format
