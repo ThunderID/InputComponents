@@ -134,4 +134,4 @@ Parameter :
 
 ####Example: 
 
-{input-string => ['name' => 'nama', 'value' => 'budi', 'validation' => ['required' => true, 'min' => 2, 'max' => 10]]}
+{'input-string' => ['name' => 'nama', 'value' => 'budi', 'validation' => ['required' => true, 'min' => 2, 'max' => 10]]}
