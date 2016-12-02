@@ -11,9 +11,12 @@ Data : string value (passed via parameter->value)
 
 Parameter : 
 
-	name : input name [string value, use snake case format (https://en.wikipedia.org/wiki/Snake_case) text format],
+	name : input name [string value, use snake case format],
 	value : input value [string value],
 	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
+
+Note :
+[Snake Case Format](https://en.wikipedia.org/wiki/Snake_case)
 
 How to Use :
 Using element
