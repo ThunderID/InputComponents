@@ -36,16 +36,14 @@ To build multiple elements, all you do is stack up your element. NOTICE: your el
 		
 The above code will generate this HTML
 
-	<form>
-		<div class="form-group">
-			<label for="input_1">input_1</label>
-			<input type="text" class="form-control thunder_input_string" id="thunder_input_string_input_1" name="input_1" value="" placeholder="">
-		</div>
-		<div class="form-group">
-			<label for="input_2">input_2</label>
-			<input type="text" class="form-control thunder_input_string" id="thunder_input_string_input_2" name="input_2" value="" placeholder="">
-		</div>		
-	</form>
+	<div class="form-group">
+		<label for="input_1">input_1</label>
+		<input type="text" class="form-control thunder_input_string" id="thunder_input_string_input_1" name="input_1" value="" placeholder="">
+	</div>
+	<div class="form-group">
+		<label for="input_2">input_2</label>
+		<input type="text" class="form-control thunder_input_string" id="thunder_input_string_input_2" name="input_2" value="" placeholder="">
+	</div>		
 	
 Now, let see if we change the element index.
 
@@ -70,16 +68,14 @@ Now, let see if we change the element index.
 		
 As expected, The above code will generate to this HTML
 
-	<form>
-		<div class="form-group">
-			<label for="input_2">input_2</label>
-			<input type="text" class="form-control thunder_input_string" id="thunder_input_string_input_1" name="input_2" value="" placeholder="">
-		</div>
-		<div class="form-group">
-			<label for="input_1">input_1</label>
-			<input type="text" class="form-control thunder_input_string" id="thunder_input_string_input_2" name="input_1" value="" placeholder="">
-		</div>		
-	</form>	
+	<div class="form-group">
+		<label for="input_2">input_2</label>
+		<input type="text" class="form-control thunder_input_string" id="thunder_input_string_input_1" name="input_2" value="" placeholder="">
+	</div>
+	<div class="form-group">
+		<label for="input_1">input_1</label>
+		<input type="text" class="form-control thunder_input_string" id="thunder_input_string_input_2" name="input_1" value="" placeholder="">
+	</div>		
 
 Element will be rendered based on element index (watch the element id and you will notice the difference). Use your wise to order your element index.
 
