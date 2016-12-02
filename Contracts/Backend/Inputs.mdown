@@ -19,8 +19,6 @@ Parameter :
 
 How to Use :
 
-Using element
-
 	'element-class'      => 'input',
 	'element-type'       => 'string',
 	'element-properties' =>  [
