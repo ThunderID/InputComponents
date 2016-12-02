@@ -15,7 +15,8 @@ Parameter :
 	value : input value [string value],
 	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
 
-How to Use(using element) :
+How to Use :
+Using element
 
 	'element-class'      => 'input',
 	'element-type'       => 'string',
