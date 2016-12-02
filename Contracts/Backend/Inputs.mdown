@@ -15,7 +15,6 @@ Parameter :
 	value : input value [string value],
 	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
 
-Note :
 [Snake Case Format](https://en.wikipedia.org/wiki/Snake_case)
 
 How to Use :
