@@ -4,7 +4,7 @@ Thunder web component using laravel blade. Dynamic API driven ui builder.
 
 ##For Backend
 
-Component will be injected via element. 
+HTML component will be injected via element. 
 
 ###Element 
 To build UI element, pass structured array matching to this documentation. This array structure will be valid to all element class.
