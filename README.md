@@ -7,7 +7,7 @@ Thunder web component using laravel blade
 Component will be injected via element. 
 
 ###Element 
-To build UI element, pass structured array matching to this documentation. This Element array structure will be valid to all element class.
+To build UI element, pass structured array matching to this documentation. This array structure will be valid to all element class.
 
 	'element-class'      => [string] class of element.
 	'element-type'       => [string] element type. Check Input Element Contacts bellow for available options
