@@ -1,6 +1,6 @@
 # Thunder Component
 ### v 0.1
-Thunder web component using laravel blade. Dynamic API driven ui builder. 
+Thunder web component using laravel blade. Dynamic API driven ui component. 
 
 ##For Backend
 
