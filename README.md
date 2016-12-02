@@ -34,7 +34,7 @@ To build multiple elements, all you do is stack up your element. NOTICE: your el
 				     ]
 		]
 		
-The above code will generate to this HTML
+The above code will generate this HTML
 
 	<form>
 		<div class="form-group">
