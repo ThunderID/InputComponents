@@ -79,6 +79,36 @@ As expected, The above code will generate to this HTML
 
 Element will be rendered based on element index (watch the element id and you will notice the difference). Use your wise to order your element index.
 
+###Component 
+Element must be use with component as wrapper. Component used to group element and it can store its data information. Component will be sorted based on it's index.
+
+Example:
+
+	  0 => [
+	    "info" => [
+	      "id" => "58422691e32d30000735f491"
+	      "pagination" => [] 
+	    ]
+	    "elements" => [
+	      	0 => [
+			"element-class" => "input"
+			"element-type" => "string"
+			"element-properties" => []
+	     	 ]
+	     	 1 => [
+			"element-class" => "input"
+			"element-type" => "string"
+			"element-properties" => []
+	     	 ]
+	    ]
+	  ]
+	  1 => array:2 [
+	    "info" => []
+	    "elements" => []
+	  ]
+
+In this example we will have 2 component. Which inside of component will have component information (id, pagination data, etc) and lists of elements
+
 ###Contracts 
 [Inputs](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/Backend/Inputs.mdown)
 
