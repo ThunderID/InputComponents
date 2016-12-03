@@ -107,7 +107,7 @@ Example:
 	    "elements" => []
 	  ]
 
-In this example we will have 2 component. Which inside of component will have component information (id, pagination data, etc) and lists of elements. As result component will be rendered as this following order: component with index 0 rendered first and the component with index 1 as second 
+In this example we will have 2 component. Which inside of component will have component information (id, pagination data, etc) and lists of elements. As result, component will be rendered as this following order: component with index 0 rendered first and the component with index 1 as second 
 
 ###Contracts 
 [Inputs](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/Backend/Inputs.mdown)
