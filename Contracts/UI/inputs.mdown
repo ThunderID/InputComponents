@@ -23,6 +23,28 @@ Notes :
 	Set null if you dont want override things.
 
 
+####2. input-email
+Description : input with email type 
+
+Data Backend : string of email
+
+Output Format UI : none
+
+Validation UI (soon) : 
+
+auto validate input on text typed and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your global css.
+
+Parameter UI : 
+
+	label : input label
+	placeholder : input placeholder text
+	class : input class styling (ie: if using bootstrap use 'form-control' class) or class for behavior (ie: using pre-defined select2 class, etc)
+	default : set this component to it's original styling or behavior. Once you try to override component style/behavior this value must be sets to false.
+
+Notes :
+	Set null if you dont want override things.
+	
+
 ###Custom Styling
 ####Label for input
 create your custom styling using thunder_input_label class
