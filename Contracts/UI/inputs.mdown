@@ -124,6 +124,26 @@ Parameter UI :
 Notes :
 	Set null if you dont want override things.
 
+####7. input-text
+Description : input with text type.
+
+Data Backend : data on text format. Can be normal String text, or mark up (HTML)
+
+Output Format UI : text
+
+Validation UI (soon) : 
+
+auto validate input on text typed and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your global css.
+
+Parameter UI : 
+
+	label : input label
+	placeholder : input placeholder text
+	class : input class styling (ie: if using bootstrap use 'form-control' class or if you're using text editor like summer note you can add "summer-note" class here)
+	default : set this component to it's original styling or behavior. Once you try to override component style/behavior this value must be sets to false.
+
+Notes :
+	Set null if you dont want override things.
 
 ###Custom Styling
 ####Label for input
