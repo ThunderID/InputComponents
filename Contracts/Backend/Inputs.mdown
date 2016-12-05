@@ -27,3 +27,25 @@ How to Use :
 		'validation' => array of validation ie : ['required' => true]
 	]
 
+####2. input-email
+Description : this will generate input with string type 
+
+Data : string value (passed via parameter->value)
+
+Parameter : 
+
+	name : input name [string value, use snake case format],
+	value : input value [string value],
+	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
+
+[Snake Case Format](https://en.wikipedia.org/wiki/Snake_case)
+
+How to Use :
+
+	'element-class'      => 'input',
+	'element-type'       => 'email',
+	'element-properties' =>  [
+		'name'       => element name,
+		'value'      => value passed to element,
+		'validation' => array of validation ie : ['required' => true]
+	]
