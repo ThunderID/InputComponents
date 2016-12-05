@@ -20,7 +20,7 @@ Parameter UI :
 	default : set this component to it's original styling or behavior. Once you try to override component style/behavior this value must be sets to false.
 
 Notes :
-	Set to null if you dont want override things.
+	Set null if you dont want override things.
 
 ####2. input-datetime
 Description : input for datetime
