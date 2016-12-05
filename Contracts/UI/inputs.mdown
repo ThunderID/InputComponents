@@ -56,7 +56,28 @@ Validation UI : None
 Parameter UI : None 
 
 Notes : You can't set style parameter, since this will not shown in UI
-	
+
+####4. input-disabled
+Description : input with disabled style
+
+Data Backend : string
+
+Output Format UI : string
+
+Validation UI (soon) : 
+
+None
+
+Parameter UI : 
+
+	label : input label
+	placeholder : input placeholder text
+	class : input class styling (ie: if using bootstrap use 'form-control' class) or class for behavior (ie: using pre-defined select2 class, etc)
+	default : set this component to it's original styling or behavior. Once you try to override component style/behavior this value must be sets to false.
+
+Notes :
+	Set null if you dont want override things.
+
 
 
 ###Custom Styling
