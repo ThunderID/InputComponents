@@ -5,20 +5,15 @@
 	}
 ?>
 
-@if($element['element-type'] == 'input-string')
+@if($element['element-type'] == 'string')
 	@include('components.inputs.module.input-string', [
 		"index" => $key, 
 		"data" 	=> $element['element-properties'], 
 		"style" => $style])
-@elseif($element['element-type'] == 'input-number')
-	@include('components.inputs.module.input-string', [
+@elseif($element['element-type'] == 'email')
+	@include('components.inputs.module.input-email', [
 		"index" => $key, 
 		"data" 	=> $element['element-properties'],
-		"style" => $style])
-@elseif($element['element-type'] == 'input-date')
-	@include('components.inputs.module.input-string', [
-		"index" => $key, 
-		"data" 	=> $element['element-properties'], 
 		"style" => $style])		
 @else
 	@include('components.inputs.module.input-string', [
