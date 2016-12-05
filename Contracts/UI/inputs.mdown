@@ -260,5 +260,5 @@ auto validate input on text typed and focus event. if validation returning false
 ####Label for input
 create your custom styling using thunder_input_label class
 
-####Label for input
+####Input
 create your custom styling using thunder_input class
