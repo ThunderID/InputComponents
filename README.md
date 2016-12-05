@@ -113,6 +113,17 @@ In this example we will have 2 component. Which inside of component will have co
 [Inputs](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/Backend/Inputs.mdown)
 
 ##For UI
+Include thunderComponent to your page and pass your component data from API. Also, you can override your styling settings / behavior using styles parameter. See Styles documentatio for available styling/behavior options.
 
-###Contracts 
+Example
+
+	@include('components.thunderComponent', [
+	    'components' => Data Source, 
+	    'styles'     => [
+				Element name => [ Array of styling Element parameter (based on element documentation) ]                                 
+			    ]
+	])
+
+
+###Style Contracts 
 [Inputs](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/UI/inputs.mdown)
