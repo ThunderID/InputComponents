@@ -72,3 +72,26 @@ How to Use :
 		'value'      => value passed to element,
 		'validation' => null
 	]
+	
+####4. input-disabled
+Description : this will generate input with disabled style
+
+Data : string value (passed via parameter->value)
+
+Parameter : 
+
+	name : input name [string value, use snake case format],
+	value : input value [string value],
+	validation : NULL (will not validate anything)
+
+[Snake Case Format](https://en.wikipedia.org/wiki/Snake_case)
+
+How to Use :
+
+	'element-class'      => 'input',
+	'element-type'       => 'email',
+	'element-properties' =>  [
+		'name'       => element name,
+		'value'      => value passed to element,
+		'validation' => null
+	]
