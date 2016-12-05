@@ -51,3 +51,29 @@ create your custom styling using thunder_input_label class
 
 ####Input
 create your custom styling using thunder_input class
+
+####3. input-hidden
+Description : input with hidden type (will not shown in UI)
+
+Data Backend : string
+
+Output Format UI : Invisible
+
+Validation UI : 
+
+	None
+
+Parameter UI : 
+
+	None 
+
+Notes :
+	You can't set style parameter, since this will not shown in UI
+	
+
+###Custom Styling
+####Label for input
+create your custom styling using thunder_input_label class
+
+####Input
+create your custom styling using thunder_input class
