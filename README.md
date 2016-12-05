@@ -130,5 +130,5 @@ Example
 	])
 
 
-###Style Contracts 
+###Contracts (Style) 
 [Inputs](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/UI/inputs.mdown)
