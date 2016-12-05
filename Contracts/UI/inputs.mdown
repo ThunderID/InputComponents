@@ -256,9 +256,9 @@ Validation UI :
 
 auto validate input on text typed and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your golbal css.
 
-Parameter UI : 
+###Custom Styling
+####Label for input
+create your custom styling using thunder_input_label class
 
-	label : 
-	placeholder : input placeholder text
-	class : input class styling (ie: if using bootstrap use 'form-control' class)
-	symbol-location : two options 'prefix' -> in front of number, or 'postfix' -> after the number
+####Label for input
+create your custom styling using thunder_input class
