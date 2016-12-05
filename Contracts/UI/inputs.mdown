@@ -87,7 +87,7 @@ Description : input with password type.
 
 Data Backend : None (Dont show any data)
 
-Output Format UI : string
+Output Format UI : masked by asterick (*) char. Will not show any given data by backend.
 
 Validation UI (soon) : 
 
