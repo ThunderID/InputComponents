@@ -115,6 +115,6 @@ How to Use :
 	'element-type'       => 'password',
 	'element-properties' =>  [
 		'name'       => element name,
-		'value'      => value passed to element,
+		'value'      => null,
 		'validation' => array of validation ie : ['required' => true]
 	]
