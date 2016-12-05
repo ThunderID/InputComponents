@@ -49,7 +49,7 @@ Description : input with hidden type (will not shown in UI)
 
 Data Backend : string
 
-Output Format UI : Invisible
+Output Format UI : None (Invisible)
 
 Validation UI : None
 
