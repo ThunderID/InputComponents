@@ -141,3 +141,26 @@ How to Use :
 		'value'      => value passed to element,
 		'validation' => array of validation ie : ['required' => true]
 	]
+
+####7. input-text
+Description : This will generate input with textarea format
+
+Data : Data on text format. Can be normal String text, or mark up (HTML)
+
+Parameter : 
+
+	name : input name [string value, use snake case format],
+	value : input value [string value],
+	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
+
+[Snake Case Format](https://en.wikipedia.org/wiki/Snake_case)
+
+How to Use :
+
+	'element-class'      => 'input',
+	'element-type'       => 'text',
+	'element-properties' =>  [
+		'name'       => element name,
+		'value'      => value passed to element,
+		'validation' => array of validation ie : ['required' => true]
+	]
