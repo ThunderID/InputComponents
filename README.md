@@ -3,7 +3,7 @@
 Thunder web component using laravel blade. Dynamic API driven ui component. 
 
 ###How to use
-download this package. copy components folder to your view directory. Done! use 
+Download this package. Copy components folder to your view directory. Done! You can use this following code. 
 
 	@inlude(components.thunderComponent, [Parameter Array])
 
