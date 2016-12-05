@@ -95,3 +95,49 @@ How to Use :
 		'value'      => value passed to element,
 		'validation' => null
 	]
+
+####5. input-password
+Description : this will generate input with password format
+
+Data : None (password will not displayed)
+
+Parameter : 
+
+	name : input name [string value, use snake case format],
+	value : NULL
+	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
+
+[Snake Case Format](https://en.wikipedia.org/wiki/Snake_case)
+
+How to Use :
+
+	'element-class'      => 'input',
+	'element-type'       => 'password',
+	'element-properties' =>  [
+		'name'       => element name,
+		'value'      => null,
+		'validation' => array of validation ie : ['required' => true]
+	]
+
+####6. input-number
+Description : this will generate input with number format
+
+Data : number format
+
+Parameter : 
+
+	name : input name [string value, use snake case format],
+	value : input value [string value],
+	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
+
+[Snake Case Format](https://en.wikipedia.org/wiki/Snake_case)
+
+How to Use :
+
+	'element-class'      => 'input',
+	'element-type'       => 'password',
+	'element-properties' =>  [
+		'name'       => element name,
+		'value'      => value passed to element,
+		'validation' => array of validation ie : ['required' => true]
+	]
