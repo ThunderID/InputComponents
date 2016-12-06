@@ -5,7 +5,7 @@
 	$ui_label 		= isset($style['label']) ? $style['label'] : str_replace("_", " ", $data['name']);
 	$ui_class 		= isset($style['class']) ? $style['class'] : '';
 	$ui_placeholder = isset($style['placeholder']) ? $style['placeholder'] : '';
-	$ui_default 	= isset($style['default']) ? $style['default'] : '';
+	$ui_default 	= isset($style['default']) ? $style['default'] : true;
 	$ui_row 		= isset($style['attr']['row']) ? $style['attr']['row'] : '3';
 ?>
 

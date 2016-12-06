@@ -16,11 +16,11 @@
 		{{ $ui_label }}
 	</label>
 	<input 
-		id="{{ 'thunder_input_email_' . $data['name'] .'_'. $index }}" 
+		id="{{ 'thunder_input_password_' . $data['name'] .'_'. $index }}" 
 		name="{{ $data['name'] }}" 
 		value="{{ $data['value'] }}" 
 		class="form-control thunder_input $ui_class" 
 		placeholder="{{ $ui_placeholder }}"
-		type="text" 
+		type="password" 
 	>
 </div>

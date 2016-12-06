@@ -5,7 +5,7 @@
 	$ui_label 		= isset($style['label']) ? $style['label'] : str_replace("_", " ", $data['name']);
 	$ui_class 		= isset($style['class']) ? $style['class'] : '';
 	$ui_placeholder = isset($style['placeholder']) ? $style['placeholder'] : '';
-	$ui_default 	= isset($style['default']) ? $style['default'] : '';
+	$ui_default 	= isset($style['default']) ? $style['default'] : true;
 ?>
 
 <div class="form-group">
@@ -16,7 +16,7 @@
 		{{ $ui_label }}
 	</label>
 	<input 
-		id="{{ 'thunder_input_disabled_' . $data['name'] . $index }}" 
+		id="{{ 'thunder_input_disabled_' . $data['name'] .'_'. $index }}" 
 		name="{{ $data['name'] }}" 
 		value="{{ $data['value'] }}" 
 		class="form-control thunder_input $ui_class" 
