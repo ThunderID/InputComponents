@@ -40,9 +40,4 @@
 		"index" => $key, 
 		"data" 	=> $element['element-properties'],
 		"style" => $style])			
-@else
-	@include('components.inputs.module.input-string', [
-		"index" => $key, 
-		"data" 	=> $element['element-properties'], 
-		"style" => $style])
 @endif
