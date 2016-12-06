@@ -198,12 +198,7 @@ Parameter :
 			or
 			Null for no GMT conversion
 	
-
-Output Format UI : Date time value formatted (calculated by Timezone set by API)
-
-Validation UI : 
-
-auto validate input on text typed and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your global css.	
+[Snake Case Format](https://en.wikipedia.org/wiki/Snake_case)
 
 Available date format :
 
@@ -216,3 +211,20 @@ Available date format :
 	hh:mm:ss
 	hh:mm
 	mm/yyyy
+
+
+
+How to Use :
+
+	'element-class'      => 'input',
+	'element-type'       => 'text',
+	'element-properties' =>  [
+		'name'       => element name,
+		'value'      => value passed to element,
+		'validation' => array of validation ie : ['required' => true],
+		'visible'    => bool visible state or not (true or false),
+					'gmt'        => [
+							'timezone' => timezone name (WIB, WITA, or WIT),
+							'timezone_type' => '2'
+					]
+	]
