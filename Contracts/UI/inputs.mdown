@@ -145,6 +145,27 @@ Parameter UI :
 Notes :
 	Set null if you dont want override things.
 
+
+####8. input-datetime
+Description : input for datetime
+
+Data : date(YMD HIS for datetime, YMD for date, HIS for time) in specified format (GMT)
+
+Parameter Backend : 
+
+	name : input name [string value],
+	value : input value [string value],
+	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10],
+	format : date, time, datetime,
+	timezone : string timezone value
+	timezone_type : string type of timezone
+
+Output Format UI : Date time value formatted (calculated by GMT set by API)
+
+Validation UI : 
+
+auto validate input on text typed and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your global css.	
+
 ###Custom Styling
 ####Label for input
 create your custom styling using thunder_input_label class
