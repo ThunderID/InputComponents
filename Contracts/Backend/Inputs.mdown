@@ -179,7 +179,7 @@ Parameter Backend :
 	timezone : string timezone value
 	timezone_type : string type of timezone
 
-Output Format UI : Date time value formatted (calculated by GMT set by API)
+Output Format UI : Date time value formatted (calculated by Timezone set by API)
 
 Validation UI : 
 
