@@ -177,8 +177,8 @@ Parameter Backend :
 	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10],
 	format : date, time, datetime,
 	gmt : 	[
-			timezone : string timezone value
-			timezone_type : string type of timezone
+				timezone : string timezone value
+				timezone_type : string type of timezone
 			] 
 			or
 			Null for no GMT conversion
