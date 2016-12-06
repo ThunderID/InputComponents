@@ -1,0 +1,29 @@
+##Table Element
+Rev 1 (For revision history click [here](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/Backend/log-tables.mdown))
+
+###Element-type
+This will be set of options of your 'element-type' you can choose  to generate your UI.
+
+####1. table-default
+Description : this will generate table with default style
+
+
+Parameter : 
+
+	name : input name [string value, use snake case format],
+	header : array of table header,
+	value : array of data value,
+
+
+How to use ?
+
+    'element-class'      => 'table',
+    'element-type'       => 'default',
+    'element-properties' =>  [
+		'name'       => 'table_1',
+		'header'     => ['data header 1' , 'data header 2', 'data header 3'],
+		'value'      => [
+				    '0' =>  ['data 1','data 2','data 3'],
+				    '1' =>  ['data 1','data 2','data 3'],
+				]
+		 ]
