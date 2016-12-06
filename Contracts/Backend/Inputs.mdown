@@ -223,7 +223,7 @@ How to Use :
 		'value'      => value passed to element,
 		'validation' => array of validation ie : ['required' => true],
 		'visible'    => bool visible state or not (true or false),
-					'gmt'        => [
+		'gmt'        => [
 							'timezone' => timezone name (WIB, WITA, or WIT),
 							'timezone_type' => '2'
 					]
