@@ -76,7 +76,6 @@ How to Use :
 		'name'       => element name,
 		'value'      => value passed to element,
 		'validation' => null,
-		'visible'    => bool visible state or not (true or false)
 	]
 	
 ####4. input-disabled
