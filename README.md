@@ -123,9 +123,9 @@ Include thunderComponent to your page and pass your component data from API. Als
 Example
 
 	@include('components.thunderComponent', [
-	    'components' => Data Source, 
+	    'components' => Data Source (from API), 
 	    'styles'     => [
-				Element name => [ Array of styling Element parameter (based on element documentation) ]                                 
+				Element name => [ Array of styling Element parameter (See element documentation below) ]                                 
 			    ]
 	])
 
