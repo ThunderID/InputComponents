@@ -13,8 +13,9 @@ Parameter :
 
 	name : input name [string value, use snake case format],
 	value : input value [string value],
-	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
-
+	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10],
+	visible : bool visible state or not 
+	
 [Snake Case Format](https://en.wikipedia.org/wiki/Snake_case)
 
 How to Use :
@@ -24,7 +25,8 @@ How to Use :
 	'element-properties' =>  [
 		'name'       => element name,
 		'value'      => value passed to element,
-		'validation' => array of validation ie : ['required' => true]
+		'validation' => array of validation ie : ['required' => true],
+		'visible'    => true or false
 	]
 
 ####2. input-email
@@ -36,7 +38,8 @@ Parameter :
 
 	name : input name [string value, use snake case format],
 	value : input value [string value],
-	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
+	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10],
+	visible : bool visible state or not 
 
 [Snake Case Format](https://en.wikipedia.org/wiki/Snake_case)
 
@@ -47,7 +50,8 @@ How to Use :
 	'element-properties' =>  [
 		'name'       => element name,
 		'value'      => value passed to element,
-		'validation' => array of validation ie : ['required' => true]
+		'validation' => array of validation ie : ['required' => true],
+		'visible'    => bool visible state or not (true or false)
 	]
 
 ####3. input-hidden
@@ -59,7 +63,8 @@ Parameter :
 
 	name : input name [string value, use snake case format],
 	value : input value [string value],
-	validation : NULL (will not validate anything)
+	validation : NULL (will not validate anything),
+	visible : bool visible state or not 
 
 [Snake Case Format](https://en.wikipedia.org/wiki/Snake_case)
 
@@ -70,7 +75,8 @@ How to Use :
 	'element-properties' =>  [
 		'name'       => element name,
 		'value'      => value passed to element,
-		'validation' => null
+		'validation' => null,
+		'visible'    => bool visible state or not (true or false)
 	]
 	
 ####4. input-disabled
@@ -82,7 +88,8 @@ Parameter :
 
 	name : input name [string value, use snake case format],
 	value : input value [string value],
-	validation : NULL (will not validate anything)
+	validation : NULL (will not validate anything),
+	visible : bool visible state or not 
 
 [Snake Case Format](https://en.wikipedia.org/wiki/Snake_case)
 
@@ -93,7 +100,8 @@ How to Use :
 	'element-properties' =>  [
 		'name'       => element name,
 		'value'      => value passed to element,
-		'validation' => null
+		'validation' => null,
+		'visible'    => bool visible state or not (true or false)
 	]
 
 ####5. input-password
@@ -105,7 +113,8 @@ Parameter :
 
 	name : input name [string value, use snake case format],
 	value : NULL
-	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
+	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10],
+	visible : bool visible state or not 
 
 [Snake Case Format](https://en.wikipedia.org/wiki/Snake_case)
 
@@ -116,7 +125,8 @@ How to Use :
 	'element-properties' =>  [
 		'name'       => element name,
 		'value'      => null,
-		'validation' => array of validation ie : ['required' => true]
+		'validation' => array of validation ie : ['required' => true],
+		'visible'    => bool visible state or not (true or false)
 	]
 
 ####6. input-number
@@ -128,7 +138,8 @@ Parameter :
 
 	name : input name [string value, use snake case format],
 	value : input value [string value],
-	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
+	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10],
+	visible : bool visible state or not 
 
 [Snake Case Format](https://en.wikipedia.org/wiki/Snake_case)
 
@@ -139,7 +150,8 @@ How to Use :
 	'element-properties' =>  [
 		'name'       => element name,
 		'value'      => value passed to element,
-		'validation' => array of validation ie : ['required' => true]
+		'validation' => array of validation ie : ['required' => true],
+		'visible'    => bool visible state or not (true or false)
 	]
 
 ####7. input-text
@@ -151,7 +163,8 @@ Parameter :
 
 	name : input name [string value, use snake case format],
 	value : input value [string value],
-	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10]
+	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10],
+	visible : bool visible state or not 
 
 [Snake Case Format](https://en.wikipedia.org/wiki/Snake_case)
 
@@ -162,7 +175,8 @@ How to Use :
 	'element-properties' =>  [
 		'name'       => element name,
 		'value'      => value passed to element,
-		'validation' => array of validation ie : ['required' => true]
+		'validation' => array of validation ie : ['required' => true],
+		'visible'    => bool visible state or not (true or false)
 	]
 	
 ####8. input-datetime
@@ -170,12 +184,13 @@ Description : input for datetime
 
 Data : date in specified format (GMT)
 
-Parameter Backend : 
+Parameter : 
 
 	name : input name [string value],
 	value : input value [string value],
 	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10],
 	format : see available list below,
+	visible : bool visible state or not,
 	gmt : 	[
 				timezone : string timezone value
 				timezone_type : string type of timezone
@@ -183,12 +198,7 @@ Parameter Backend :
 			or
 			Null for no GMT conversion
 	
-
-Output Format UI : Date time value formatted (calculated by Timezone set by API)
-
-Validation UI : 
-
-auto validate input on text typed and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your global css.	
+[Snake Case Format](https://en.wikipedia.org/wiki/Snake_case)
 
 Available date format :
 
@@ -201,3 +211,20 @@ Available date format :
 	hh:mm:ss
 	hh:mm
 	mm/yyyy
+
+
+
+How to Use :
+
+	'element-class'      => 'input',
+	'element-type'       => 'text',
+	'element-properties' =>  [
+		'name'       => element name,
+		'value'      => value passed to element,
+		'validation' => array of validation ie : ['required' => true],
+		'visible'    => bool visible state or not (true or false),
+		'gmt'        => [
+							'timezone' => timezone name (WIB, WITA, or WIT),
+							'timezone_type' => '2'
+					]
+	]
