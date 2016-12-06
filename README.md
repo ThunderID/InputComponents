@@ -7,6 +7,8 @@ Download this package. Copy components folder to your view directory. Done! You 
 
 	@inlude(components.thunderComponent, [Parameter Array])
 
+Don't forget to include js file and css inside Assets folder into your project.
+
 ##For Backend
 
 HTML component will be injected via element. 
