@@ -16,7 +16,7 @@ Parameter UI :
 Notes :
 	Set null if you dont want override things.
 
-Example
+Example :
 
       @include('components.thunderComponent', [
                   'components' => APi Data, 
