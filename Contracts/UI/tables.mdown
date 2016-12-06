@@ -1,5 +1,5 @@
 ###Inputs
-Revision 1 (For revision history click [here](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/UI/log-inputs.mdown))
+Revision 1 (For revision history click [here](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/UI/log-tables.mdown))
 
 ####1. table-default
 Description : table with default styling 
