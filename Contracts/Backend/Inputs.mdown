@@ -179,9 +179,9 @@ Parameter Backend :
 	gmt : 	[
 			timezone : string timezone value
 			timezone_type : string type of timezone
-		] 
-		or
-		Null for no GMT conversion
+			] 
+			or
+			Null for no GMT conversion
 	
 
 Output Format UI : Date time value formatted (calculated by Timezone set by API)
