@@ -13,3 +13,8 @@
 ------
 1. Implement element conecpt
 2. Re-cluster component parameter 
+
+###REV 4
+####6 December 2016
+------
+1. Add Visible parameter
