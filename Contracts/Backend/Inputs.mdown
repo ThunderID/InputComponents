@@ -192,12 +192,12 @@ auto validate input on text typed and focus event. if validation returning false
 
 available date format :
 
-dd/mm/yyyy
-mm/dd/yyyy
-yyyy/mm/dd
-dd-mm-yyyy
-mm-dd-yyyy
-yyyy-mm-dd
-hh:mm:ss
-hh:mm
-mm/yyyy
+	dd/mm/yyyy
+	mm/dd/yyyy
+	yyyy/mm/dd
+	dd-mm-yyyy
+	mm-dd-yyyy
+	yyyy-mm-dd
+	hh:mm:ss
+	hh:mm
+	mm/yyyy
