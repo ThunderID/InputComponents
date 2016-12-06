@@ -164,3 +164,40 @@ How to Use :
 		'value'      => value passed to element,
 		'validation' => array of validation ie : ['required' => true]
 	]
+	
+####8. input-datetime
+Description : input for datetime
+
+Data : date in specified format (GMT)
+
+Parameter Backend : 
+
+	name : input name [string value],
+	value : input value [string value],
+	validation : array of validation. ie : ['required' => true, 'min' => 1, 'max' => 10],
+	format : see available list below,
+	gmt : 	[
+				timezone : string timezone value
+				timezone_type : string type of timezone
+			] 
+			or
+			Null for no GMT conversion
+	
+
+Output Format UI : Date time value formatted (calculated by Timezone set by API)
+
+Validation UI : 
+
+auto validate input on text typed and focus event. if validation returning false, input will set class "danger". Else, it will set class="success". You can override css by set danger/success class on your global css.	
+
+Available date format :
+
+	dd/mm/yyyy
+	mm/dd/yyyy
+	yyyy/mm/dd
+	dd-mm-yyyy
+	mm-dd-yyyy
+	yyyy-mm-dd
+	hh:mm:ss
+	hh:mm
+	mm/yyyy
