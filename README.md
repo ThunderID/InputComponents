@@ -87,7 +87,10 @@ As expected, The above code will generate to this HTML
 Element will be rendered based on element index (watch the element id and you will notice the difference). Use your wise to order your element index.
 
 ###Component 
-Element must be use with component as wrapper. Component is used to group elements. It can also store component information. Component rendering order will follow it's index.
+Element must be use with component as wrapper. Component used to group elements. It can also store component information.
+
+####Multiple Component (Such as index page)
+Component rendering order will follow it's index.
 
 Example:
 
@@ -116,6 +119,24 @@ Example:
 
 In this example we will have 2 component. Which inside of component will have component information (id, pagination data, etc) and lists of elements. As result, component will be rendered as this following order: component with index 0 rendered first and the component with index 1 as second 
 
+####Single Component (Such as create page or show/detail page)
+	    "info" => [
+	      "id" => "58422691e32d30000735f491"
+	      "pagination" => [] 
+	    ]
+	    "elements" => [
+	      	0 => [
+			"element-class" => "input"
+			"element-type" => "string"
+			"element-properties" => []
+	     	 ]
+	     	 1 => [
+			"element-class" => "input"
+			"element-type" => "string"
+			"element-properties" => []
+	     	 ]
+	    ]
+	    
 ###Contracts 
 [Inputs](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/Backend/Inputs.mdown)
 
