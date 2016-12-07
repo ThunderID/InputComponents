@@ -118,6 +118,7 @@ In this example we will have 2 component. Which inside of component will have co
 
 ###Contracts 
 [Inputs](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/Backend/Inputs.mdown)
+
 [Tables](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/Backend/tables.mdown)
 
 ##For UI
@@ -135,4 +136,5 @@ Example
 
 ###Contracts (Style) 
 [Inputs](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/UI/inputs.mdown)
+
 [Tables](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/UI/tables.mdown)
