@@ -120,6 +120,8 @@ Example:
 In this example we will have 2 component. Which inside of component will have component information (id, pagination data, etc) and lists of elements. As result, component will be rendered as this following order: component with index 0 rendered first and the component with index 1 as second 
 
 ####Single Component (Such as create page or show/detail page)
+
+Example :
 	    "info" => [
 	      "id" => "58422691e32d30000735f491"
 	      "pagination" => [] 
