@@ -13,6 +13,7 @@ Parameter :
 	name : input name [string value, use snake case format],
 	header : array of table header,
 	value : array of data value,
+	paginator : array sets of paginator
 
 
 How to use ?
@@ -25,5 +26,6 @@ How to use ?
 		'value'      => [
 				    '0' =>  ['data 1','data 2','data 3'],
 				    '1' =>  ['data 1','data 2','data 3'],
-				]
+				],
+		'paginator' => 	[]
 		 ]
