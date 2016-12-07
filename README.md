@@ -118,6 +118,7 @@ In this example we will have 2 component. Which inside of component will have co
 
 ###Contracts 
 [Inputs](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/Backend/Inputs.mdown)
+[Tables](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/Backend/tables.mdown)
 
 ##For UI
 Include thunderComponent to your page and pass your component data from API. Also, you can override your styling settings / behavior using styles parameter. See Styles documentation for available styling/behavior options.
@@ -134,3 +135,4 @@ Example
 
 ###Contracts (Style) 
 [Inputs](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/UI/inputs.mdown)
+[Tables](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/UI/tables.mdown)
