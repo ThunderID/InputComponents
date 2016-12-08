@@ -27,11 +27,18 @@ Keterangan :
 	    'page_data' => [
 	        NAMA GROUP => [
 	            'header'=> array dari nama field yang akan ditampilkan
-	            'data' => []
+	            'data' => [
+		    		NAMA FIELD => array deskripsi element,
+				NAMA FIELD => array deskripsi element,
+				dst....
+		    	      ]
 	        ],
 	        NAMA GROUP => [
 	            'header'=> array dari nama field yang akan ditampilkan
-	            'data' => []
+	            'data' => [
+			    	NAMA FIELD => array deskripsi element,
+				dst....
+		              ]
 	        ],
 	        dst....	
 	    ]
