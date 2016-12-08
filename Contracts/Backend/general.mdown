@@ -27,47 +27,11 @@ Keterangan :
 	    'page_data' => [
 	        NAMA GROUP => [
 	            'header'=> array dari nama field yang akan ditampilkan
-	            'data' => [
-	                NAMA FIELD => [
-	                    'element-class'      => nama element class yang digunakan,
-	                    'element-type'       => nama tipe element yang digunakan',
-	                    'element-properties' =>  [
-	                        'value'      => nilai data,
-	                        'validation' => array validasi
-	                    ]
-	                ],  
-	                NAMA FIELD => [
-	                    'element-class'      => nama element class yang digunakan,
-	                    'element-type'       => nama tipe element yang digunakan',
-	                    'element-properties' =>  [
-	                        'value'      => nilai data,
-	                        'validation' => array validasi
-	                    ]
-	                ], 
-	                dst....
-	            ]
+	            'data' => []
 	        ],
 	        NAMA GROUP => [
 	            'header'=> array dari nama field yang akan ditampilkan
-	            'data' => [
-	                NAMA FIELD => [
-	                    'element-class'      => nama element class yang digunakan,
-	                    'element-type'       => nama tipe element yang digunakan',
-	                    'element-properties' =>  [
-	                        'value'      => nilai data,
-	                        'validation' => array validasi
-	                    ]
-	                ],  
-	                NAMA FIELD => [
-	                    'element-class'      => nama element class yang digunakan,
-	                    'element-type'       => nama tipe element yang digunakan',
-	                    'element-properties' =>  [
-	                        'value'      => nilai data,
-	                        'validation' => array validasi
-	                    ]
-	                ], 
-	                dst....
-	            ]
+	            'data' => []
 	        ],
 	        dst....	
 	    ]
