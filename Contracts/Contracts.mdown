@@ -4,7 +4,7 @@
 Contract untuk backend digunakan sebagai panduan menyusun (formatting) data yang dikirimkan ke UI sehingga data tersebut dapat diterjamahkan oleh Component. Pengiriman data yang tidak sesuai dengan kontrak akan menyebabkan data tidak ditampilkan dengan benar.
 
 ## Frontend
-Contract untuk backend digunakan sebagai panduan dalam pembuatan UI component(pembacaan parameter dari APi yang diterima atau juga slot yang digunakan untuk melakukan customisasi component).
+Contract untuk backend digunakan sebagai panduan dalam pembuatan UI component (pembacaan parameter dari APi yang diterima dan juga parameter yang digunakan untuk melakukan kustomisasi component).
 
 ### 1. Page Create
 Contract format data dari backend ke UI untuk requet halaman Create.
