@@ -3,7 +3,7 @@
 Contract digunakan sebagai format data yang telah disepakati untuk komunikasi antara API dengan UI.
 
 ## Contract: Response
-Saat UI melakukan request ke API, maka API akan mengembalikan response yang nantinya akan diolah/dirender oleh UI dan disajikan ke browser. Jadi reponse adalah data balikan yang dikirimkan API kepada UI.
+Saat UI melakukan request ke API, maka API akan mengembalikan response yang nantinya akan diolah/dirender oleh UI dan disajikan ke browser. Jadi reponse adalah balikan yang dikirimkan API kepada UI.
 Adapun Contract untuk Response yang telah disepakati adalah sebagai berikut.
 
 #### Struktur Data
