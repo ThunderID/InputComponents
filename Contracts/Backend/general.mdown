@@ -1,0 +1,76 @@
+#Backend
+
+Contract ini digunakan sebagai format data yang telah disepakati untuk komunikasi antara UI dan API.
+Karena komunikasi UI dan API yang dilakukan adalah request sebuah halaman (page), maka contract akan dibagi mengikuti jenis request yang ada.
+
+## 1. Page Create
+Contract format data dari backend ke UI untuk requet halaman Create.
+
+#### Struktur Data
+
+	Data 
+	 |_ Page Info
+	 |_ Page Data
+	 	 |_ Group of Elements
+	 	 	 |_ Header
+	 	 	 |_ Data
+	 	 	 	 |_ Element Description
+
+Keterangan : 	 	 	 	 
+
+#### Format pengiriman data
+
+	[
+	    'page_info' => [
+	        'id' => Id data yang dikirim (set null jika tidak ada)
+	    ],
+	    'page_data' => [
+	        NAMA GROUP => [
+	            'header'=> array dari nama field yang akan ditampilkan
+	            'data' => [
+	                NAMA FIELD => [
+	                    'element-class'      => nama element class yang digunakan,
+	                    'element-type'       => nama tipe element yang digunakan',
+	                    'element-properties' =>  [
+	                        'value'      => nilai data,
+	                        'validation' => array validasi
+	                    ]
+	                ],  
+	                NAMA FIELD => [
+	                    'element-class'      => nama element class yang digunakan,
+	                    'element-type'       => nama tipe element yang digunakan',
+	                    'element-properties' =>  [
+	                        'value'      => nilai data,
+	                        'validation' => array validasi
+	                    ]
+	                ], 
+	                dst....
+	            ]
+	        ],
+	        NAMA GROUP => [
+	            'header'=> array dari nama field yang akan ditampilkan
+	            'data' => [
+	                NAMA FIELD => [
+	                    'element-class'      => nama element class yang digunakan,
+	                    'element-type'       => nama tipe element yang digunakan',
+	                    'element-properties' =>  [
+	                        'value'      => nilai data,
+	                        'validation' => array validasi
+	                    ]
+	                ],  
+	                NAMA FIELD => [
+	                    'element-class'      => nama element class yang digunakan,
+	                    'element-type'       => nama tipe element yang digunakan',
+	                    'element-properties' =>  [
+	                        'value'      => nilai data,
+	                        'validation' => array validasi
+	                    ]
+	                ], 
+	                dst....
+	            ]
+	        ],
+	        dst....	
+	    ]
+	]
+
+
