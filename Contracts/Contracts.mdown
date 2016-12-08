@@ -1,8 +1,29 @@
 # Contract
 
-## Backend
+## Contract: Response
+Contract response digunakan sebagai panduan format data response yang dikirimkan dari Backend, serta panduan pembacaan untuk UI. Response kiriman yang tidak sesuai dengan contract ini tidak akan dikenali oleh pihak yang lain.
+
+Saat UI melakukan request ke API, maka API akan mengembalikan response yang nantinya akan diolah/dirender oleh UI dan disajikan ke browser. Jadi reponse adalah balikan yang dikirimkan API kepada UI.
+Reponse dikirimkan menggunakan format [JSend](https://labs.omniti.com/labs/jsend).
+
+#### Struktur Data
+	 response
+	  |_ status
+	  |_ message
+	  |_ code
+	  |_ data
+
+Keterangan : 
+
+1. Status : status response. Ada 3 opsi nilai status yakni success, fail, dan error.
+2. Message : pesan error yang dikirimkan bila reponse tidak dalam status success. Data message hanya akan dikirimkan bila status response adalah error.
+3. Code : kode error. Data message hanya akan dikirimkan bila status response adalah error.
+4. Data : adalah data yang dikirimkan oleh API sebagai produk dari request yang diminta oleh UI.
+
+
+## Contract: Backend
 Contract untuk backend digunakan sebagai panduan menyusun (formatting) data yang dikirimkan ke UI sehingga data tersebut dapat diterjamahkan oleh Component. Pengiriman data yang tidak sesuai dengan kontrak akan menyebabkan data tidak ditampilkan dengan benar.
 
-## Frontend
+## Contract: Frontend
 Contract untuk backend digunakan sebagai panduan dalam pembuatan UI component (pembacaan parameter dari APi yang diterima dan juga parameter yang digunakan untuk melakukan kustomisasi component).
 
