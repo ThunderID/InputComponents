@@ -1,6 +1,25 @@
 #Backend
 
-Contract ini digunakan sebagai format data yang telah disepakati untuk komunikasi antara UI dan API.
+Contract digunakan sebagai format data yang telah disepakati untuk komunikasi antara API dengan UI.
+
+## Contract: Response
+Saat UI melakukan request ke API, maka API akan mengembalikan response yang nantinya akan diolah/dirender oleh UI dan disajikan ke browser. Jadi reponse adalah data balikan yang dikirimkan API kepada UI.
+Adapun Contract untuk Response yang telah disepakati adalah sebagai berikut.
+
+#### Struktur Data
+	 response
+	  |_ status
+	  |_ message
+	  |_ code
+	  |_ data
+
+Keterangan : 
+
+1. Status : status response. Ada 3 opsi nilai status yakni success, fail, dan error.
+2. Message : pesan error yang dikirimkan bila reponse tidak dalam status success. Data message hanya akan dikirimkan bila status response adalah error.
+3. Code : kode error. Data message hanya akan dikirimkan bila status response adalah error.
+4. Data : adalah data yang dikirimkan oleh API sebagai produk dari request yang diminta oleh UI.
+
 Karena komunikasi UI dan API yang dilakukan adalah request sebuah halaman (page), maka contract akan dibagi mengikuti jenis request yang ada.
 
 ## 1. Page Create
