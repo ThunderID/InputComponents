@@ -4,6 +4,7 @@ Contract ini digunakan sebagai format data yang telah disepakati untuk komunikas
 Karena komunikasi UI dan API yang dilakukan adalah request sebuah halaman (page), maka contract akan dibagi mengikuti jenis request yang ada.
 
 ## 1. Page Create
+#### Deskripsi
 Contract format data dari backend ke UI untuk requet halaman Create.
 
 #### Struktur Data
@@ -44,4 +45,4 @@ Keterangan :
 	    ]
 	]
 
-
+Keterangan : 	 
