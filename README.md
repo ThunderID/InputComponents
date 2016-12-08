@@ -8,6 +8,3 @@ Download this package. Copy components folder to your view directory. Done! You 
 	@inlude(components.thunderComponent, [Parameter Array])
 
 Don't forget to include js file and css inside Assets folder into your project.
-
-### Contract
-[Untuk melihat contract komunikasi data antara UI dan API](https://github.com/ThunderID/ThunderComponents/blob/master/Contracts/Contracts.mdown)
