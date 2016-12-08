@@ -4,7 +4,7 @@ Contract digunakan sebagai format data yang telah disepakati untuk komunikasi an
 
 ## Contract: Response
 Saat UI melakukan request ke API, maka API akan mengembalikan response yang nantinya akan diolah/dirender oleh UI dan disajikan ke browser. Jadi reponse adalah balikan yang dikirimkan API kepada UI.
-Adapun Contract untuk Response yang telah disepakati adalah sebagai berikut.
+Reponse dikirimkan menggunakan format [JSend](https://labs.omniti.com/labs/jsend).
 
 #### Struktur Data
 	 response
@@ -19,6 +19,9 @@ Keterangan :
 2. Message : pesan error yang dikirimkan bila reponse tidak dalam status success. Data message hanya akan dikirimkan bila status response adalah error.
 3. Code : kode error. Data message hanya akan dikirimkan bila status response adalah error.
 4. Data : adalah data yang dikirimkan oleh API sebagai produk dari request yang diminta oleh UI.
+
+
+## Contract: Data
 
 Karena komunikasi UI dan API yang dilakukan adalah request sebuah halaman (page), maka contract akan dibagi mengikuti jenis request yang ada.
 
