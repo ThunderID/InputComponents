@@ -18,7 +18,7 @@ Keterangan :
 1. Status : status response. Ada 3 opsi nilai status yakni success, fail, dan error.
 2. Message : pesan error yang dikirimkan bila reponse tidak dalam status success. Data message hanya akan dikirimkan bila status response adalah error.
 3. Code : kode error. Data message hanya akan dikirimkan bila status response adalah error.
-4. Data : adalah data yang dikirimkan oleh API sebagai produk dari request yang diminta oleh UI.
+4. Data : adalah data yang dikirimkan oleh API sebagai produk dari request dari UI.
 
 
 ## Contract: Backend
