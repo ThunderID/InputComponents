@@ -1,9 +1,0 @@
-###REV 1
-####26 November 2016
-------
-1. Initial Contracts
-
-###REV 2
-####5 December 2016
-------
-1. Change Contracts : parameter structure
