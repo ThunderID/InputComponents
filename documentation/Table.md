@@ -45,7 +45,7 @@ Keterangan :
 		'component_debug'=> true
 	])
 
-KETERANGAN :
+Keterangan :
 
 Format EXPECTED DATA adalah sebagai berikut :
 
