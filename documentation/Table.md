@@ -18,6 +18,7 @@
 	'component_debug'=> true or false
 
 Keterangan :
+
 1. header berisi nama field data yang akan ditampilkan
 2. data berisi kumpulan data yang akan ditampilkan
 3. component_style berisi opsi yang dapat dikonfigurasi untuk tampilan UI
@@ -45,6 +46,7 @@ Keterangan :
 	])
 
 KETERANGAN :
+
 Format EXPECTED DATA adalah sebagai berikut :
 
 		[
