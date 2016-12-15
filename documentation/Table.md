@@ -114,7 +114,7 @@ Ada 3 macam binding yang dapat dilakukan
 
 ## Kustomasi
 
-### custom header name
+### 1. custom header name
 Judul header tabel akan menyesuaikan dengan nama field data. Judul dapat diganti dengan menggunakan parameter 'custom_header_name' pada 'component_style'. 
 
 #### Format
