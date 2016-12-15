@@ -124,19 +124,19 @@ Judul header tabel akan menyesuaikan dengan nama field data. Judul dapat diganti
 	
 #### Contoh	
 	@include('components.table.component', [
-	    'component_id' => 'tabel_1',
-	    'component_data' => $page_datas->datas['data']['page_data'],
-	    'component_style'=> [
-				    'class' => null, 
-				    'noDataMsg' => 'No data',
-				    'paging'    =>  [
-					'total_data' => 1,
-					'take'       => 15,
-					'class'      => '' 
-				    ],
-				    'custom_header_name' => [
-					'writer' => 'Penulis'
-				    ],
-				],
-	    'component_debug'=> true
+		'component_id' => 'tabel_1',
+		'component_data' => $page_datas->datas['data']['page_data'],
+		'component_style'=> [
+			'class' => null, 
+			'noDataMsg' => 'No data',
+			'paging'    =>  [
+				'total_data' => 1,
+				'take'       => 15,
+				'class'      => '' 
+			],
+			'custom_header_name' => [
+				'writer' => 'Penulis'
+			],
+		],
+		'component_debug'=> true
 	])	
