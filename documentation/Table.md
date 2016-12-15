@@ -77,7 +77,7 @@ Ada 3 macam binding yang dapat dilakukan
 
 	Contoh:
 
-		<tr id="tabel_transaksi_(ID DATA)" >
+		<tr id="tabel_transaksi_(ROW COUNTER)" data-id="{{ ID DATA }} >
 			<td>
 				....
 			</td>
@@ -88,8 +88,12 @@ Ada 3 macam binding yang dapat dilakukan
 	Row tabel dari data dapat dibinding dengan menggunakan selector tabel_transaksi_(ID DATA).
 
 	tabel_transaksi => adalah id dari component
+	
+	ROW COUNTER => Nomor urutan row 
 
 	ID Data => adalah id dari data yang menempati row in
+	
+	Untuk binding id dari data yang menempati row ini, dapat juga menggunakan binding dari data attribut 'data-id'
 
 
 3. Data coloumn binding (by Class)
