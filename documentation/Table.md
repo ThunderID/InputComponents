@@ -140,3 +140,14 @@ Judul header tabel akan menyesuaikan dengan nama field data. Judul dapat diganti
 		],
 		'component_debug'=> true
 	])	
+
+Note
+Nama Field yang dimaksud adalah mengikut nama field data. Biasanya untuk default judul field yang lebih dari dua kata akan menggunakan snake case format (misal : last_input_time), tapi ketika telah dirender sebagai judul header akan dilakukan konversi karakter '_' dengan spasi (last input time).
+
+Jadi seharusnya data custom_header_name yang didaftarkan adalah sebagai berikut :
+
+	custom_header_name' => [
+		'last_input_time' => 'Judul Custom Anda'
+	]
+
+Untuk text yang di assign ke dalam nama field tidak akan dikenakan transformasi apapun. Gunakan spasi atau underscore sesuai kebutuhan.
