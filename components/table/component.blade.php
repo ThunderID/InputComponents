@@ -17,6 +17,9 @@
 
 	*/
 
+	// component
+	$c_id		= isset($component_id) ? $component_id : null;
+
 	// styling
 	$ui_t_class 		= isset($component_style['class']) ? $component_style['class'] : 'table-bordered table-hover';
 
@@ -27,6 +30,10 @@
 	$component_errors 	= [];
 
 	if($component_debug == true){
+		if(is_null($c_id) || is_array($c_id)){
+			array_push($component_errors, "Component_id harus di-isi dan bukan dalam format array");
+		}
+
 		if(is_array($ui_t_class)){
 			array_push($component_errors, "Class parameter must not be array");
 		}
@@ -82,19 +89,19 @@
 @endif
 
 <!-- components code -->
-<table class="table {{ $ui_t_class }}">
+<table id="{{ $c_id }}" class="table {{ $ui_t_class }}">
 	<thead>
 		<tr>
 			@foreach($component_data['header'] as $header)
-				<th>{{ $header }}</th>
+				<th class="col_{{$header}}">{{ str_replace('_', ' ', $header) }}</th>
 			@endforeach
 		</tr>
 	</thead>
 	<tbody>
-		@forelse ($component_data['data'] as $data)
-			<tr>
+		@forelse ($component_data['data'] as $key => $data)
+			<tr id="{{ $c_id . '_' . $key}}">
 				@foreach($component_data['header'] as $header)
-					<th>{{ $data[$header] }}</th>
+					<td class="col_{{$header}}">{{ $data[$header] }}</td>
 				@endforeach
 			</tr>
 		@empty
