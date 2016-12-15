@@ -61,32 +61,52 @@ Format EXPECTED DATA adalah sebagai berikut :
 		]
 
 ## Binding
-Ada 2 macam binding yang dapat dilakukan
+Ada 3 macam binding yang dapat dilakukan
 
-1. Component binding
-Object yang di-binding adalah object component dalam wujud tabel.  Binding dapat dilakukan dengan menggunakan id dari object, yakni nilai dari parameter 'component_id'
+1. Component binding (by ID)
+	Object yang di-binding adalah object component dalam wujud tabel.  Binding dapat dilakukan dengan menggunakan id dari object, yakni nilai dari parameter 'component_id'
 
-Contoh :
+	Contoh :
 
-	'component_id' => 'tabel_transaksi'
+		'component_id' => 'tabel_transaksi'
 
-Gunakan 'tabel_transaksi' untuk penggunaan binding untuk keperluan set css maupun js.
+	Gunakan 'tabel_transaksi' untuk penggunaan binding untuk keperluan set css maupun js.
 
-2. Data list binding
-Element <tr></tr> dalam row tabel dapat di binding dengan menggunakan id dari element <tr> tersebut.
+2. Data row binding (by ID)
+	Element <tr></tr> dalam row tabel dapat di binding dengan menggunakan id dari element <tr> tersebut.
 
-Contoh:
+	Contoh:
 
-	<tr id="tabel_transaksi_(ID DATA)" >
-		<td>
+		<tr id="tabel_transaksi_(ID DATA)" >
+			<td>
+				....
+			</td>
 			....
-		</td>
-		....
-	</tr>
-	
-Keterangan :	
-Row tabel dari data dapat dibinding dengan menggunakan selector tabel_transaksi_(ID DATA).
+		</tr>
 
-tabel_transaksi => adalah id dari component
+	Keterangan :	
+	Row tabel dari data dapat dibinding dengan menggunakan selector tabel_transaksi_(ID DATA).
 
-ID Data => adalah id dari data yang menempati row ini
+	tabel_transaksi => adalah id dari component
+
+	ID Data => adalah id dari data yang menempati row ini
+
+
+3. Data coloumn binding (by Class)
+
+	Contoh:
+
+		<tr>
+			<th class="col_(NAMA HEADER)">
+			</th>
+		</tr>
+		<tr>
+			<td class="col_(NAMA HEADER)">
+			</td>
+			....
+		</tr>
+
+	Keterangan :	
+	Kolom dari tabel dapat dibinding dengan menggunakan selector col_(NAMA HEADER).
+
+	Nama Header => adalah yang tercantum pada array 'header'
