@@ -14,6 +14,11 @@
 			'total_data' => number of total data from database. This is required ,
 			'take'       => number of data taken per page. This is required,
 			'class'      => pagging class (class for css, js, or binding) in string. (ie: 'form-control text-red') 
+		],
+		'numbering' => [
+			'current_page' => current page. This is required,
+			'label' => numbering field label title'. This is required,
+			'take' => number of data taken per page. This is required,
 		]
 	],
 	'component_debug'=> true or false
@@ -26,6 +31,7 @@ Keterangan :
 4. component_style berisi opsi yang dapat dikonfigurasi untuk tampilan UI
 5. bila tidak ada data untuk nilai variabel, gunakan null (kecuali jika required, harus tetap di-isikan)
 6. set 'component_debug'ke true untuk testing dan developing phase. mode ini akan melakukan validasi parameter dan menampilkan pesan error. Bila sudah dalam statu stable, matikan fitur ini untuk mematikan fitur pengecekan
+7. gunakan numbering untuk penomoron otomatis row table, matikan dengan memberikan null value atau tidak perlu mendaftarkan parameter ini pada 'component_style'
 
 ## Penggunaan
 
@@ -43,6 +49,11 @@ Keterangan :
 				'total_data' => 1,
 				'take'       => 15,
 				'class'      => 'page-blue' 
+			],
+			'numbering' => [
+				'current_page' => $page_datas->datas['data']['page_info']['pagination']['current_page'],
+				'label' => 'Nomor',
+				'take' => 15
 			]
 		],
 		'component_debug'=> true
