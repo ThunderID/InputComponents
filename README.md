@@ -8,3 +8,4 @@ Copykan juga file js & css yang ada dalam folder assets kedalam project anda.
 
 ### Daftar Component 
 1. [Table Component](https://github.com/ThunderID/ThunderComponents/blob/master/documentation/Table.md)
+2. [Input Component](https://github.com/ThunderID/ThunderComponents/blob/master/documentation/Input.md)
