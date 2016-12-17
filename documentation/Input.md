@@ -79,3 +79,8 @@ Format NAME OF ELEMENT adalah sebagai berikut
 	])
 
 ## Binding
+1. Element ID
+Setiap input element memiliki ID unik yang dapat dibinding guna keperluan manipulasi css/js.
+
+2. Class Binding
+Anda bisa set class di dalam element untuk keperluan element binding. Secara default, semua element memiliki class 'thunder_input' guna keperluan binding.
