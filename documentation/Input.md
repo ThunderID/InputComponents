@@ -84,3 +84,6 @@ Setiap input element memiliki ID unik yang dapat dibinding guna keperluan manipu
 
 2. Class Binding
 Anda bisa set class di dalam element untuk keperluan element binding. Secara default, semua element memiliki class 'thunder_input' guna keperluan binding.
+
+## MISC
+Anda bisa berikan element (form, div, dsb) sebagai wrapper sebelum menggunakan component ini.
