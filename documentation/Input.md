@@ -18,7 +18,7 @@ Keterangan :
 1. 'component_id' adalah id dari component ini. parameter ini wajib untuk di-isikan.
 2. header berisi nama field data yang akan ditampilkan
 3. data berisi kumpulan data yang akan ditampilkan
-4. component_style berisi opsi yang dapat dikonfigurasi untuk tampilan UI (baca dokumentasi [element]())
+4. component_style berisi opsi yang dapat dikonfigurasi untuk tampilan UI (baca dokumentasi [element](https://github.com/ThunderID/ThunderContract/blob/master/Element/list.mdown))
 5. bila tidak ada data untuk nilai variabel, gunakan null (kecuali jika required, harus tetap di-isikan)
 6. set 'component_debug'ke true untuk testing dan developing phase. mode ini akan melakukan validasi parameter dan menampilkan pesan error. Bila sudah dalam statu stable, matikan fitur ini untuk mematikan fitur pengecekan
 7. gunakan numbering untuk penomoron otomatis row table, matikan dengan memberikan null value atau tidak perlu mendaftarkan parameter ini pada 'component_style'
@@ -63,7 +63,7 @@ Format NAME OF ELEMENT adalah sebagai berikut
 		]
 	]
 
-*lihat dokumentasi [element]()
+*Untuk Styling serta detail spesifikasi element, lihat [dokumentasi](https://github.com/ThunderID/ThunderContract/blob/master/Element/list.mdown)
 
 #### Contoh
 
