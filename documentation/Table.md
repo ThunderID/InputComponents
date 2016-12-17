@@ -41,7 +41,10 @@ Keterangan :
 
 	 @include('components.table.component', [
 	 	'component_id' => 'tabel_transaksi'
-		'component_data' => EXPECTED DATA,
+		'component_data' => [
+			'header' => ['nama_field_1','nama_field_2'] ,
+			'data' => EXPECTED DATA,
+		],
 		'component_style'=> [
 			'class' => 'table-hover', 
 			'noDataMsg' => 'No data',
