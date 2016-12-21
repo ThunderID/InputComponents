@@ -49,6 +49,7 @@ Format EXPECTED DATA adalah sebagai berikut :
 			'element-class'      => nama element class yang digunakan,
 			'element-type'       => nama tipe element yang digunakan',
 			'element-properties' =>  [
+				PROPERTY ELEMENT => NILAI, misal: 
 				'value'      => nilai data,
 				'validation' => array validasi
 			]
