@@ -64,7 +64,7 @@ Format NAME OF ELEMENT adalah sebagai berikut
 		]
 	]
 
-*Untuk Styling serta detail spesifikasi element, lihat [dokumentasi](https://github.com/ThunderID/ThunderContract/blob/master/Element/list.mdown)
+*Untuk Styling serta detail spesifikasi element serta property element yang ada, lihat [dokumentasi](https://github.com/ThunderID/ThunderContract/blob/master/Element/list.mdown)
 
 #### Contoh
 
